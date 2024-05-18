@@ -19,17 +19,18 @@ Esta es una aplicación web desarrollada en Laravel que permite a los usuarios b
 2. Instalar las dependencias de Composer:
 
    cd googleshoppingsearch_app_laravel
+   
    composer install
 
-3. Copiar el archivo de configuración .env.example y renombrarlo a .env:
+4. Copiar el archivo de configuración .env.example y renombrarlo a .env:
 
    cp .env.example .env
 
-4. Generar la clave de aplicación de Laravel:
+5. Generar la clave de aplicación de Laravel:
 
    php artisan key:generate
 
-5. Editar el archivo .env y configurar las variables de entorno:
+6. Editar el archivo .env y configurar las variables de entorno:
 
    - `GOOGLE_API_KEY`: Tu clave de API de Google.
    - `GOOGLE_SEARCH_ENGINE_ID`: El ID de tu motor de búsqueda personalizado de Google.
