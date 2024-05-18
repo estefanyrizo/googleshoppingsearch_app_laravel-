@@ -4,7 +4,7 @@ Esta es una aplicación web desarrollada en Laravel que permite a los usuarios b
 
 ## Requisitos
 
-- PHP >= 8
+- PHP >= 7.4
 - Composer
 - Servidor web (por ejemplo, Apache o Nginx)
 - Clave de API de Google Custom Search Engine
